@@ -2,13 +2,24 @@ package ares.remoting.framework.serialization.common;
 
 import org.apache.commons.lang.StringUtils;
 
+/**
+ * 序列化方式枚举类
+ * @author alan
+ * @date 
+ * @version 
+ * 
+ */
 public enum SerializeType {
 
-	DefaultJavaSerializer("DefaultJavaSerializer"), HessianSerializer("HessianSerializer"),
-	JSONSerializer("JSONSerializer"), ProtoStuffSerializer("ProtoStuffSerializer"), XmlSerializer("XmlSerializer"),
+	DefaultJavaSerializer("DefaultJavaSerializer"), 
+	HessianSerializer("HessianSerializer"),
+	JSONSerializer("JSONSerializer"), 
+	ProtoStuffSerializer("ProtoStuffSerializer"), 
+	XmlSerializer("XmlSerializer"),
 	MarshallingSerializer("MarshallingSerializer"),
 
-	AvroSerializer("AvroSerializer"), ProtocolBufferSerializer("ProtocolBufferSerializer"),
+	AvroSerializer("AvroSerializer"), 
+	ProtocolBufferSerializer("ProtocolBufferSerializer"),
 	ThriftSerializer("ThriftSerializer");
 
 	private String serializeType;
